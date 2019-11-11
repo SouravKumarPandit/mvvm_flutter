@@ -1,8 +1,7 @@
 name: mvvm_flutter
-description: A new Flutter plugin.
-version: 0.0.1
-author:
-homepage:
+description: The goal behind  is to move as much of the state and logic from the View into a separate entity called the BaseViewModel.
+version: 0.1.0
+homepage: https://github.com/SouravKumarPandit/mvvm_flutter
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -10,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  meta: ^1.1.5
+  provider: ^3.1.0+1
 
 dev_dependencies:
   flutter_test:
