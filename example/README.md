@@ -2,7 +2,7 @@
 
 Demonstrates how to use the mvvm_flutter plugin.
 
-,,,,dart 
+```dart 
 
 class PhotoView extends StatefulWidget {
   @override
@@ -62,3 +62,4 @@ class _PhotoViewState extends BaseState<PhotoViewModel, PhotoView> {
     ];
   }
 }
+```
