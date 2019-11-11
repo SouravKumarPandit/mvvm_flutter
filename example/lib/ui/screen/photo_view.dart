@@ -15,7 +15,7 @@ class _PhotoViewState extends BaseState<PhotoViewModel, PhotoView> {
 
   @override
   void initViewModel() {
-    model = PhotoViewModel();
+    viewModel = PhotoViewModel();
 //    model.doSomeNetworkCall();
   }
 
@@ -24,21 +24,21 @@ class _PhotoViewState extends BaseState<PhotoViewModel, PhotoView> {
       BuildContext context, ChildrenHolder childrenHolder) {
     return Scaffold(
         appBar: AppBar(
-          title: childrenHolder.children[2] ?? Text("Photo"),
+          title: childrenHolder.children[5] ?? Text("Photo"),
         ),
         body: InkWell(
-          onTap: model.onChangeBackground,
+          onTap: viewModel.onChangeBackground,
           child: AnimatedContainer(
             duration: Duration(
               milliseconds: 300,
             ),
-            color: Color(model.backgroundColor),
+            color: Color(viewModel.backgroundColor),
             child: Center(
               child: Card(
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
-                    "Background color :${model.colorName}",
+                    "Background color :${viewModel.colorName}",
                     style: TextStyle(fontSize: 20),
                   ),
                 ),

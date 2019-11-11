@@ -5,7 +5,7 @@ import 'package:provider/provider.dart';
 
 abstract class BaseState<M extends BaseViewModel, T extends StatefulWidget>
     extends State<T> {
-  M model;
+  M viewModel;
 
   @override
   void initState() {
@@ -16,7 +16,7 @@ abstract class BaseState<M extends BaseViewModel, T extends StatefulWidget>
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider<M>(
-      builder: (context) => model,
+      builder: (context) => viewModel,
       child: Consumer<M>(
         builder: loadingProgressBuilder,
         child: ChildrenHolder(reuseChildren()),
@@ -27,13 +27,13 @@ abstract class BaseState<M extends BaseViewModel, T extends StatefulWidget>
   @override
   void dispose() {
     super.dispose();
-    model.dispose();
+    viewModel.dispose();
   }
 
   Widget loadingProgressBuilder(
       BuildContext context, M baseModel, Widget childrenHolder) {
     return LoadingProgressWidget(
-      showIndicator: model.busy,
+      showIndicator: viewModel.busy,
       child: stateWidgetBuilder(context, childrenHolder),
     );
   }

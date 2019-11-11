@@ -1,4 +1,4 @@
-## [0.1.0] - 
+## [0.1.1] - 
 [![pub package](https://img.shields.io/pub/v/mvvm_flutter.svg)](https://pub.dev/packages/mvvm_flutter)
 [![join chat](https://badges.gitter.im/unicreators/mvvm_flutter.svg)](https://gitter.im/unicreators/mvvm_flutter)
 
