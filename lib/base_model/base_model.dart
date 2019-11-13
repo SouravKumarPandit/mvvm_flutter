@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_flutter/base_interface/base_layer.dart';
+import 'package:mvvm_flutter/base_model/base_layer.dart';
 
 class BaseViewModel extends ChangeNotifier implements IBaseView {
   bool _busy = false;
@@ -28,7 +28,7 @@ class BaseViewModel extends ChangeNotifier implements IBaseView {
 
   @override
   void showError(int iStatusCode, String sMessage) {
-    showInternetFailed();
+//    showInternetFailed();
   }
 
   @override
@@ -36,5 +36,9 @@ class BaseViewModel extends ChangeNotifier implements IBaseView {
     setBusy(true);
   }
 
-  Future showInternetFailed() async {}
+
+  @override
+  void invalidate() {
+   notifyListeners();
+  }
 }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_flutter_example/ui/screen/photo_view.dart';
+import 'package:mvvm_flutter_example/ui/screen/color_changer_view.dart';
 
 void main() => runApp(MyApp());
 
@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: PhotoView(),
+      home: ColorChangerView(),
     );
   }
 }

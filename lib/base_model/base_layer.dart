@@ -5,4 +5,5 @@ abstract class IBaseView {
   void handleResponse(Object responseObject);
   void showProgressbar();
   void hideProgressbar();
+  void invalidate();
 }

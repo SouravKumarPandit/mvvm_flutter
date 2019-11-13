@@ -1,14 +1,11 @@
 import 'package:mvvm_flutter/base_model/base_model.dart';
 import 'package:mvvm_flutter_example/ui/screen/view_interface.dart';
 
-class PhotoViewModel extends BaseViewModel implements IPhotoView {
-//  PhotoService photoService;
-
-  PhotoViewModel() {
+class ColorChangerViewModel extends BaseViewModel implements IPhotoView {
+  ColorChangerViewModel() {
     backgroundColor = initColor;
   }
 
-//  List<Photos> photos;
   int initColor = 0xff38c286;
   int backgroundColor;
   String colorName = "Green";

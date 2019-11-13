@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mvvm_flutter/base_model/base_model.dart';
-import 'package:mvvm_flutter/base_ui/progress_bar_widget.dart';
+import 'package:mvvm_flutter/base_view/progress_bar_widget.dart';
 import 'package:provider/provider.dart';
 
 abstract class BaseState<M extends BaseViewModel, T extends StatefulWidget>
