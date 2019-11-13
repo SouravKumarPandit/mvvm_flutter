@@ -38,12 +38,12 @@ class _ObserverTestAppState
           ),
           Text(
             "${viewModel.incrementedValue.value}",
-            style: TextStyle(fontSize: 50, color: Colors.white),
+            style: TextStyle(fontSize: 50, color: Colors.black),
           ),
           MaterialButton(
             color: Colors.red,
             child: Text(
-              "Incriment data",
+              "Block small area",
               style: TextStyle(color: Colors.white),
             ),
             onPressed: () {
