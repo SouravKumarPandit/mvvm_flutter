@@ -1,6 +1,6 @@
 name: mvvm_flutter
 description: The goal behind  is to move as much of the state and logic from the View into a separate entity called the BaseViewModel.
-version: 0.2.0
+version: 0.2.2
 homepage: https://github.com/SouravKumarPandit/mvvm_flutter
 
 environment:
@@ -16,7 +16,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-flutter:
-  plugin:
-    androidPackage: com.flutterpandit.architecture.mvvm_flutter
-    pluginClass: MvvmFlutterPlugin
+#flutter:
+#  plugin:
+#    androidPackage: com.flutterpandit.architecture.mvvm_flutter
+#    pluginClass: MvvmFlutterPlugin

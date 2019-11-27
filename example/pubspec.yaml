@@ -1,6 +1,6 @@
 name: mvvm_flutter_example
 description: Demonstrates how to use the mvvm_flutter plugin.
-publish_to: 'none'
+publish_to: 'anybody'
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

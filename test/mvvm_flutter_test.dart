@@ -1,4 +1,4 @@
-void main() {
+//void main() {
 //  const MethodChannel channel = MethodChannel('mvvm_flutter');
 //
 //  TestWidgetsFlutterBinding.ensureInitialized();
@@ -16,4 +16,4 @@ void main() {
 //  test('getPlatformVersion', () async {
 //    expect(await MvvmFlutter.platformVersion, '42');
 //  });
-}
+//}

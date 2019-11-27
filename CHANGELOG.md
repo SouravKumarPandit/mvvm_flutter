@@ -1,13 +1,14 @@
-## [0.1.1] - 
+## [0.2.2] -  Fixed some bug while building app
 [![pub package](https://img.shields.io/pub/v/mvvm_flutter.svg)](https://pub.dev/packages/mvvm_flutter)
 [![join chat](https://badges.gitter.im/unicreators/mvvm_flutter.svg)](https://gitter.im/unicreators/mvvm_flutter)
 
 
+The well-ordered and perhaps the most reusable way to organize your code is to use the 'MVVM' pattern. The Model, View, ViewModel (MVVM pattern) is all about  how to organize and structure your code to write maintainable, testable and extensible applications.
 
-A Flutter MVVM (Model-View-ViewModel) implementation. 
-It uses abstraction layer between flutter view and model class .
- binding to establish a connection between the ViewModel and the View 
- , and drives the View changes through the ViewModel.
-  
- 
+Model − It simply holds the data and has nothing to do with any of the business logic.
 
+ViewModel − It acts as the link/connection between the Model and View and makes stuff look pretty.
+
+View − It simply holds the formatted data and essentially delegates everything to the Model.
+
+see some example class for clear picture
