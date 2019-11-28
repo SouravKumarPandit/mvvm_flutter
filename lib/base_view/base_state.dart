@@ -16,7 +16,7 @@ abstract class BaseState<M extends BaseViewModel, T extends StatefulWidget>
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider<M>(
-      builder: (context) => viewModel,
+      create: (context) => viewModel,
       child: Consumer<M>(
         builder: loadingProgressBuilder,
         child: ChildrenHolder(reuseChildren()),

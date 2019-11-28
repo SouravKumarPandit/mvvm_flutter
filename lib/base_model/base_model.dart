@@ -36,9 +36,8 @@ class BaseViewModel extends ChangeNotifier implements IBaseView {
     setBusy(true);
   }
 
-
   @override
   void invalidate() {
-   notifyListeners();
+    notifyListeners();
   }
 }
