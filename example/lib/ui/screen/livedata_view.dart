@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_flutter_example/ui/viewmodel/live_data_example.dart';
 import 'package:mvvm_flutter/base_view/base_state.dart';
+import 'package:mvvm_flutter_example/ui/viewmodel/live_data_example.dart';
 
 class ObserverTestApp extends StatefulWidget {
   @override
@@ -38,7 +38,8 @@ class _ObserverTestAppState
           ),
           Text(
             "${viewModel.incrementedValue.value}",
-            style: TextStyle(fontSize: 50, color: Colors.black),
+            style: TextStyle(
+                fontSize: sizeConfig.textMultiplier * 5, color: Colors.black),
           ),
           MaterialButton(
             color: Colors.red,

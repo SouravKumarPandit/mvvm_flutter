@@ -45,7 +45,8 @@ class _ColorChangerViewState
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
                         "BLOCKING WHOLE VIEW }",
-                        style: TextStyle(fontSize: 20),
+                        style: TextStyle(
+                            fontSize: 1.5 * sizeConfig.textMultiplier),
                       ),
                     ),
                   ),

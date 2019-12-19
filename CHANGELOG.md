@@ -1,4 +1,4 @@
-## [0.2.8] -  miner bug fix
+## [0.3.0] -  Added sizeconfig class in base class for building dynamic screens
 [![pub package](https://img.shields.io/pub/v/mvvm_flutter.svg)](https://pub.dev/packages/mvvm_flutter)
 [![join chat](https://badges.gitter.im/unicreators/mvvm_flutter.svg)](https://gitter.im/unicreators/mvvm_flutter)
 
