@@ -1,7 +1,5 @@
 # mvvm_flutter
-
-A new Flutter plugin.
-
+Light weight plugin having few classes to organise you flutter code
 ## Getting Started
 
 This project is a starting point for a Flutter
