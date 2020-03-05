@@ -1,5 +1,5 @@
 # mvvm_flutter
-Light weight plugin having few classes to organise you flutter code and follow MVVM pattern.with size scaling features , check example code 
+Light weight plugin having few classes to organize you flutter code and follow MVVM pattern.with size scaling features , check example code 
 ## Getting Started
 
 This project is a starting point for a Flutter
